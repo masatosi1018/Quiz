@@ -1,32 +1,50 @@
 //問題文を定義
 const quiz = [
   {
-    question:'ゲーム市場、最も売れたゲームは？',
+    question:'冬に寿司ご飯を作る時すぐに硬くなってしまうのを防ぐためには何を少し多めに入れると良いでしょうか？',
     answers:[ 
-    'スーパーファミコン',
-    'プレーステーション２',
-    '任天堂スイッチ',
-    '任天堂DS'
+    '砂糖',
+    '塩',
+    'お酢',
+    'みりん'
     ],
-    correct:'任天堂DS'
+    correct:'砂糖'
   },{
-    question:'柾駿の苗字は？',
+    question:'厚地の物をすぐに乾かすにはどこで干すのが良いでしょうか？',
     answers:[
-      '佐藤',
-      '坂井',
-      '実誠',
-      '咲洲'
+      '暑い場所',
+      '暗い場所',
+      '高い場所',
+      '広い場所'
     ],
-    correct:'坂井'
+    correct:'高い場所'
   },{
-    question:'ハリーの最初の友達は？',
+    question:'干しシイタケを早く戻したい場合、何を少し加えるとすぐに戻るでしょうか？',
     answers:[
-      'ハーマイオニー',
-      'ロン',
-      'マルフォイ',
-      'ダドリー'
+      '片栗粉',
+      'お酢',
+      '塩',
+      '砂糖'
     ],
-    correct:'ロン'
+    correct:'砂糖'
+  },{
+    question:'バスで乗り物酔いがしにくい場所はどこでしょうか？',
+    answers:[
+      ' 一番前',
+      '一番後ろ',
+      '真ん中の席',
+      '運転席'
+    ],
+    correct:'真ん中の席'
+  },{
+    question:'レバーのくさみを取るには何を使えば良いでしょうか？',
+    answers:[
+      '牛乳',
+      '食塩水',
+      'レモン汁',
+      'コーラ'
+    ],
+    correct:'牛乳'
   }
 ];
 
@@ -82,16 +100,16 @@ while (handlerIndex < buttonLength){
 
 
 
-//ボタンを押したら正誤判定
-// $button[0].addEventListener('click', (e) => {
-//   clickHandler(e);
-// });
-// $button[1].addEventListener('click', (e) => {
-//   clickHandler(e);
-// });
-// $button[2].addEventListener('click', (e) => {
-//   clickHandler(e);
-// });
-// $button[3].addEventListener('click', (e) => {
-//  clickHandler(e);
-// });
+ボタンを押したら正誤判定
+$button[0].addEventListener('click', (e) => {
+  clickHandler(e);
+});
+$button[1].addEventListener('click', (e) => {
+  clickHandler(e);
+});
+$button[2].addEventListener('click', (e) => {
+  clickHandler(e);
+});
+$button[3].addEventListener('click', (e) => {
+ clickHandler(e);
+});
